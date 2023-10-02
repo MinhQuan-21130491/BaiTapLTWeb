@@ -1,0 +1,171 @@
+*{margin: 0; padding: 0}
+body {
+   
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+  /*css header */
+.header {
+    background-color: rgba(255, 255, 255, 1);
+    height:90px;
+}
+
+.header .container{
+    display: flex;
+    
+}
+.header .container .logo{
+    padding: 25px 0px;
+    width: 75%;
+}
+.header .container .logo img{
+   height:40px;
+}
+.header .container .text{
+    text-align: end;
+    padding: 30px 0px;
+    color: rgba(151, 151, 151, 1);
+    width: 12.5%
+}
+.header .container .container-icon{
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    width: 12.5%
+}
+.header .container .container-icon  a {
+    color: rgba(151, 151, 151, 1);
+    padding: 0 5px;
+    font-size: 20px;
+}
+  /*end css header */
+  /*css content-top */
+  .content-top {
+    background-color: rgba(51, 51, 51, 1);
+  }
+  .content-top-banner {
+    display: flex;
+  }
+  .content-top-banner .content-top-banner-left {
+    padding: 90px 0px;
+    width: 50%;
+  }
+  .content-top-banner .content-top-banner-left img {
+    width: 550px;
+    height: 490px;
+  }
+  .content-top-banner .content-top-banner-right {
+    padding: 95px 0px;
+    width: 50%;
+  }
+  .content-top-banner .content-top-banner-right .text {
+    width:500px;
+    margin: auto;
+  }
+  .content-top-banner .content-top-banner-right .text a {
+    color: rgba(45, 192, 232, 1);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .content-top-banner .content-top-banner-right .text h3{
+    margin: 20px 0;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .content-top-banner .content-top-banner-right .text p{
+    text-align: justify;
+    text-indent: 0; /* Đặt lề đầu dòng về 0 để căn đều đầu đoạn */
+    font-size: 20px;
+    color: rgba(134, 134, 134, 1);
+  }
+  .btn-join {
+    background-color: rgba(45, 192, 232, 1);
+    width: 170px;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: inline-block;
+  }
+  /*end css content-top*/
+  /*css content-bot*/
+  .content-bot {
+    background-color: rgba(238, 238, 238, 1)
+  }
+  .content-bot .content-bot-top {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .content-bot .content-bot-top h5 {
+   font-size: 25px;
+   color: rgb(97, 97, 97);
+  }
+  .content-bot .content-bot-top p{
+    padding-top: 25px;
+    color: rgba(171, 171, 171, 1);
+  }
+  .content-bot .content-bot-bot{
+   padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .content-bot .content-bot-bot .content-bot-bot-fb {
+    width: 48%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+   
+  }
+  .content-bot .content-bot-bot .content-bot-bot-fb .left {
+    width:20%;
+    padding: 20px;
+  }
+  .content-bot .content-bot-bot .content-bot-bot-fb .right {
+    width: 80%;
+    padding: 20px;
+  }
+  .content-bot .content-bot-bot .content-bot-bot-fb .right >p{
+   margin: 0;
+   font-size: 20px;
+   color: rgba(151, 151, 151, 1);
+   
+  }
+  .content-bot .content-bot-bot .content-bot-bot-fb .right >a{
+   padding-top: 5px;
+   display: inline-block;
+   text-decoration: none;
+   
+  }
+  /*end css content-bot*/
+  .qs {
+    max-width: 690px;
+    margin: auto;
+    padding-top: 75px;
+    text-align: center;
+  }
+  .qs #text-1 {
+    color:rgba(77, 140, 90, 1);
+    padding-bottom: 40px;
+    font-size: 30px;
+  }
+  .qs #text-2{
+    color: rgba(151, 151, 151, 1);
+    padding-bottom: 40px;
+  }
+  .qs .btn-free-quote a {
+    text-decoration: none;
+    color: rgba(77, 140, 90, 1);
+    font-weight: 700;
+    border: 2px solid rgba(77, 140, 90, 1);
+    padding: 20px;
+    display: inline-block;
+  }
+   .copy-right {
+    padding-top: 40px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
