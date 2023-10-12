@@ -3,11 +3,11 @@
 .navigation {
     list-style: none;
     display: flex;
-    border-left:6px solid brown ;
+    border-left:6px solid rgba(139, 0, 0, 1) ;
     border-bottom:2px solid brown ;
 }
 .menu__item:hover .menu__link {
-    background-color: brown;
+    background-color: rgba(139, 0, 0, 1);
 }
 
 .navigation .menu__item {
@@ -29,7 +29,7 @@
     list-style: none;
     width: auto;
     position: absolute;
-    top: 105%;
+    top: 103%;
     left: 0%;
     width: 140%;
     display: none;   

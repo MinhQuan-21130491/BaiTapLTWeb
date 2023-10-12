@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form1</title>
+    <link rel="stylesheet" href="css/form1.css">
+    <script src = "https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src = "index6_form1.js"></script>
+</head>
+<body>
+<section id ="form1" >
+    <form action="https://www.w3schools.com" id ="my_form1">
+        <div class="parent">
+            <div class="box__white"></div>
+            <div class="container__contact">
+                <div class="contact"><h2>Contact Us</h2></div>
+
+                <div class="input__field">
+                    <label class ="name_label"  >FULL NAME*   <span id = "errorName"></span></label>
+                    <input class = "field__input" type="text" id="text__name" placeholder="Enter Your Name">
+
+                </div>
+                <div class="contact__infor">
+
+                    <div class="input__field">
+                        <label class ="name_label" >EMAIL*  <span id = "errorEmail"></span></label>
+                        <input class = "field__input" type="text" id="text__email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="input__field">
+                        <label class ="name_label" >PHONE*<span id = "errorPhone"></span></label>
+                        <input class = "field__input" type="text" id="text__phone" placeholder="Enter Number Phone">
+                    </div>
+                </div>
+                <div class="select__service">
+                    <div class="input__field">
+                        <label class ="name_label" >NEEDED SERVICE*<span id = "errorService"></span></label>
+                        <select name ="select" id = "selects">
+                            <option value="">Please chooses</option>
+                            <option value ="abc">a</option>
+                            <option value ="b">b</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input__field">
+                    <label class ="name_label" >MESSAGE</label>
+                    <textarea rows="9" cols="65" placeholder="Your Message Here...."></textarea>
+                </div>
+                <div class="btn">
+                    <button type="submit" id="btnSubmit">SUBMIT <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+
+
+</body>
+</html>

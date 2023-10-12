@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .input  {
+        width: 50%;
+        margin: auto;
+    }
+    .textArea #A, .textField #B {
+        width: 80%;
+        padding: 0 0 30px 0;
+        margin-bot: 10px 0;
+        border: 1px solid red;
+    }
+
+    .result {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .result #btn {
+         padding:20px ;
+        background-color: #0d6efd;
+        border: 1px solid red;
+        width: 20%;
+    }
+    .result span {
+        width: 75%;
+        font-weight: 700;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+</style>
+<body>
+<div class="input">
+    <div class="textArea">
+        <p>Đây là textArea B có thể nhập 1 văn bản gồm nhiều dòng vào</p>
+        <textarea type="text" id="A" placeholder=""></textarea>
+    </div>
+    <div class="textField">
+        <p>Đây là textField A có thể nhập vào 1 dòng văn bản</p>
+        <input type="text" id="B" placeholder="">
+    </div>
+    <p>Kiểm tra số lần xuất hiện của A trong B</p>
+    <div class="result">
+        <button id = "btn">Kiểm tra</button>
+        <span id="ketQua"></span>
+    </div>
+
+</div>
+</body>
+<script src="index4.js"></script>
+</html>
